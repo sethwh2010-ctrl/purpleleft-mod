@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "purple-left-outliner",
+  "version": "${version}",
+  "name": "Purple Left Outliner",
+  "description": "Client-side companion for Re:Entity Outliner: suppresses entity glow on the right side of the view.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.seth.purpleaddon.PurpleLeftOutlinerClient"]
+  },
+  "mixins": {
+    "client": ["EntityGlowMixin"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.seth.purpleaddon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["EntityGlowMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
